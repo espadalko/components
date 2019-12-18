@@ -1,16 +1,21 @@
 <template>
 	<div id="app">
 		<div class="cards">
-			<div id="card1" class="card card--3">
+			<div class="card card--3">
 				<div class="card__wrapper">
-					<img src="assets/card3.jpg" alt="rrr">
+					<img src="./assets/card3.jpg" alt="изображение">
+				</div>
+				
+			</div>
+			<div class="card card--2">
+				<div class="card__wrapper">
+					<img src="./assets/card2.jpg" alt="изображение">
 				</div>
 			</div>
-			<div id="card2" class="card card--2">
-				<div class="card__wrapper"></div>
-			</div>
-			<div id="card3" class="card card--1">
-				<div class="card__wrapper"></div>
+			<div class="card card--1">
+				<div class="card__wrapper">
+					<img src="./assets/card1.jpg" alt="изображение">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -62,8 +67,8 @@ html
 		box-shadow 0 0 10px #979797
 		border 0px
 	&__wrapper
-		// border solid @border-width #979797
-		border solid borderWidth #000
+		border solid @border-width #979797
+		// border solid borderWidth #000
 		width 100%
 		height 100%
 </style>
