@@ -5,16 +5,27 @@
 				<div class="card__wrapper">
 					<img src="./assets/card3.jpg" alt="изображение">
 				</div>
-				
+				<div class="card__title">
+					ПОДОКОННИКИ<br>
+					СТОЛЕШНИЦЫ<br>
+					КАМИНЫ<br>
+				</div>
 			</div>
 			<div class="card card--2">
 				<div class="card__wrapper">
 					<img src="./assets/card2.jpg" alt="изображение">
 				</div>
+				<div class="card__title">
+					МРАМОРНАЯ<br>
+					КРОШКА<br>
+				</div>
 			</div>
 			<div class="card card--1">
 				<div class="card__wrapper">
 					<img src="./assets/card1.jpg" alt="изображение">
+				</div>
+				<div class="card__title">
+					ПАМЯТНИКИ<br>
 				</div>
 			</div>
 		</div>
@@ -46,6 +57,7 @@ html
 	align-items center
 	height 600px
 .card
+	// position relative
 	width 167px
 	margin-left -10px
 	border solid #000 
@@ -71,4 +83,19 @@ html
 		// border solid borderWidth #000
 		width 100%
 		height 100%
+	&__title
+		// display flex
+		// flex-direction row-reverse
+		text-align right
+		// padding-left 11px
+		margin-top 4px
+		margin-left auto
+		margin-right 1px
+		// position absolute
+		color #979797
+		letter-spacing 1px
+		font-family Arial
+		width auto
+		// width 167px
+		
 </style>
